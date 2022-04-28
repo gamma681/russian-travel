@@ -1,11 +1,11 @@
 .cover__background {
   background-image: url(../../../images/cover-trains.jpg);
-  background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-size: contain;
+  -moz-background-size: contain;
+  -webkit-background-size: contain;
   background-position: center;
   grid-column: 1/2;
   grid-row: 1/3;
   width: 100%;
-  height: 62.5vw;
 }
