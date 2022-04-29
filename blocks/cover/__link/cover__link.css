@@ -10,13 +10,20 @@
 
 @media screen and (max-width: 1279px) {
   .cover__link {
-    min-height: 58vw;
+   max-height: 740px;
+  }
+}
+
+@media screen and (max-width: 1184px) {
+  .cover__link {
+    min-height: 62.5vw;
   }
 }
 
 @media screen and (max-width: 1024px) {
   .cover__link {
-    min-height: 63vw;
+    min-height: 62.5vw;
+    max-height: 640px;
   }
 }
 
